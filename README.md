@@ -7,6 +7,17 @@ Displays current BM reading, and refreshes every 5 min. Prints the readings to t
 # Readings
 Readings are presented in mmol/l
 
+# Reading Threasholds
+Red (Danger): > 15mmol/l, < 3mmol/l
+Yellow (Warning): > 13mmol/l, < 4mmol/l
+Green (OK): > 4 mmol/l, < 15 mmol/l
+Grey (Error): No reading
+
+# Audio Tones
+On startup: tada.wav
+On 2x errors: crit_stop.wav
+On red reading: crit_stop.wav
+
 # Before using this script
 Ensure that the .env file is updated with your dexcom login details.
 Ensure the required python libaries are installed (see requirements.txt).
