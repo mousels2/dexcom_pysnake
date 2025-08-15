@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Michael Moorhouse
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 import pydexcom
 from dotenv import load_dotenv
 import os
@@ -198,3 +201,4 @@ if __name__ == "__main__":
         CHECK_TIMER = 10
 
     main(test_mode=TESTING)
+
